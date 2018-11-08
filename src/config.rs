@@ -8,10 +8,10 @@ use std::ffi::OsStr;
 
 const DEFAULT_GATEWAY: &str = "192.168.42.1";
 const DEFAULT_DHCP_RANGE: &str = "192.168.42.2,192.168.42.254";
-const DEFAULT_SSID: &str = "WiFi Connect";
+const DEFAULT_SSID: &str = "Allevi WiFi Connect";
 const DEFAULT_ACTIVITY_TIMEOUT: &str = "0";
 const DEFAULT_UI_DIRECTORY: &str = "ui";
-const DEFAULT_LISTENING_PORT: &str = "80";
+const DEFAULT_LISTENING_PORT: &str = "8007";
 
 #[derive(Clone)]
 pub struct Config {
